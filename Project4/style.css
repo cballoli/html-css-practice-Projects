@@ -1,0 +1,122 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    line-height: 1.04;
+    font-weight: 300;
+}
+
+.top_container{
+    background-image: url(images/image1.png);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.text_box{
+    color: white;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 25px;
+}
+.lgtxt{
+   font-size: 72px; 
+   font-weight: 300;
+   text-transform: uppercase;
+}
+.ltxt{
+    font-size: 72px; 
+    font-weight: 300;   
+}
+.black_text{
+   background-color: black;
+   color: white;
+   text-align: center; 
+   padding: 50px 60px;
+}
+.black_text h2{
+    font-size: 65px; 
+    font-weight: 300;
+    text-transform: uppercase; 
+}
+.txt{
+    font-size: 110px;
+}
+.blue{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+    
+    max-width: 1100px;    
+    margin: 70px auto;
+}
+.grid{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cards{
+    max-width: 320px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 3px 5px 6px rgb(14, 12, 12, 0.2);
+    margin-top: 20px; 
+    transition: 0.3s ease-in-out;
+}
+.cards:hover{
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+    box-shadow: 3px 5px 6px rgb(14, 12, 12, 0.4);
+}
+.card_content{
+    padding: 20px;
+}
+.card_content h2{
+    margin-bottom: 10px;
+}
+.card_content p{
+    font-size: 20px;
+}
+.bottom{
+    display: flex;
+}
+.contact{
+    background-color: rgb(56, 114, 56);
+}
+.about{
+    background-color: rgb(179, 76, 28);
+}
+.about,
+.contact{
+    height: 320px;
+    padding: 40px 50px;
+
+}
+.about h3,
+.contact h3{
+    font-size: 40px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.about p,
+.contact p{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.foot{
+    text-align: center;
+    background-color: rgb(8, 8, 8);
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+}
+.foot h3{
+    font-size: 30px;
+    font-weight: 300;
+}
