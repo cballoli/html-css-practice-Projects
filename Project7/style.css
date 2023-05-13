@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    font-weight: 300;
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    border: 1px solid #ccc;
+    height: 100vh;
+}
+
+nav h1 {
+    font-size: 28px;
+    font-weight: 600;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    color: black;
+}
+
+nav ul li:hover {
+    background: rgb(208, 205, 205);
+    transition: 0.3s ease-in-out;
+}
+
+main{
+    padding: 50px;
+    max-width: 1200px;
+}
+section{
+    margin-bottom: 50px;
+}
+
+section article{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+section h2{
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 15px;
+    padding: 7px;
+}
+
+section article ul{
+    margin-left: 27px;
+}
+
+section article ul li{
+    margin-bottom: 10px;
+}
+
+code{
+    white-space: pre-line;
+    background: rgb(235, 232, 232);
+    line-height: 2;
+    padding: 15px;
+}
+
+@media (max-width: 840px){
+    
+    body{
+        width: 50%;
+        flex-direction: column;
+    }
+    header{
+        height:auto;
+    }
+}
