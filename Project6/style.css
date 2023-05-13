@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    line-height: 1.4;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
+}
+section{
+    scroll-margin: 50px;
+}
+ul{
+    list-style: none;
+    display: flex; 
+    gap: 20px;   
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+    padding: 15px 0;
+}
+header{
+    background-color: rgb(69, 6, 186);
+    position: sticky;
+    top: 0%;
+    z-index: 100;
+}
+.icon{
+    font-size: 34px;
+    font-weight: 600;
+}
+nav ul li{
+    border-bottom: 2px solid transparent;
+    transition: 0.3s ease-in-out;
+}
+nav ul li:hover{
+     border-bottom: 2px solid white;
+    transition: 0.3s ease-in-out;
+}
+
+.mains{
+    background-image: url(images/hero_image.png);
+    height: 100vh;
+    display: grid;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+
+.mains .container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mains h1{
+    font-size: 80px;
+    font-weight: 700;
+
+}
+
+.mains h3{
+    font-size: 30px;
+}
+.music_sec{
+    padding-top: 50px;
+    background-color: rgb(54, 4, 141);
+}
+
+.music_sec .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    color: white;
+    place-items: center;
+    text-align: center;
+}
+.image{
+    margin-top: -300px;
+    position: relative;
+    top: 300px;
+}
+.btn{
+    padding: 10px 15px;
+    background-color: red;
+    border: none;
+    border-radius: 7px;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.btn:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 1px 1px 1px rgba(1, 1 , 1, 0.5);
+}
+.abt_msc{
+    margin-top: 330px;
+}
+.abt_msc .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    place-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.scd_btn{
+    padding: 10px 15px;
+    background-color: rgb(54, 4, 141);
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+.scd_btn:hover{
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+    box-shadow: 1px 1px 1px rgba(1, 1 , 1, 0.5);
+}
+.v_section{
+    background-image: url(images/video.png);
+    min-height: 800px;
+    display: grid;
+    justify-content: center;
+    place-items: center;
+    text-align: center; 
+}
+.v_section .container{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    margin-top: -200px;
+}
+.mains, .v_section{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.gift{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0;
+    gap: 50px;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.r_btn{
+    align-self: flex-start;
+}
+footer{
+    background-color: rgb(54, 4, 141);
+    padding: 35px;
+}
+.footer-u{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+    
+}
+.ftr_lks ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0;   
+}
+.ftr_lks h3{
+    padding-bottom: 5px;
+    border-bottom: 2px solid white;
+    margin-bottom: 10px;
+}
+.footer-l{
+    background-color: rgb(41, 2, 108);
+    color: white;
+    padding-top: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-l p{
+    font-size: 20px
+}
+.gift{
+    scroll-margin: 120px;
+}
